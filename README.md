@@ -6,14 +6,14 @@ Determine the Big O for the following algorithm: You are sitting in a room with 
 ### O(n) - because it will ask people one by one cost linear time
 
 ## 2. Even or odd
-`function isEven(value) {
-    if (value % 2 === 0) {
-        return true;
-    }
-    else {
-        return false;
-    }
-}﻿﻿`
+    function isEven(value) {
+        if (value % 2 === 0) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }﻿﻿
 ### O(1) - because comparison only cost constant time to compare
 
 ## 3. Are you here?
